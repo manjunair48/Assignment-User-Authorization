@@ -33,7 +33,7 @@ public class TestBase {
             WebDriverManager.firefoxdriver().setup();
 			driver = new FirefoxDriver();
 		  }
-		  driver.get("http://localhost:4567/index");
+		  driver.get(url);
 		}
 		return driver;
 	}
