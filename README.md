@@ -2,9 +2,17 @@
 
 How to run:
 
-1)Build it with Maven
+Option 1:
 
-2)Run TestNGTestRunner.java
-(path : Assignment-User-Authorization/tree/main/src/test/java/cucumberOptions))
+1)Import it into IDE
+
+2)Build it with Maven
+
+3)Run TestNGTestRunner.java 
+(path : Assignment-User-Authorization/tree/main/src/test/java/cucumberOptions/TestNGTestRunner.java))
+ 
+Option 2:
+Open Command prompt in the project location and run command "mvn test"
+ 
 
 Feature files path : Assignment-User-Authorization/tree/main/src/test/java/features
